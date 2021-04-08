@@ -1,5 +1,5 @@
 const getAll = function(req, res) {
-  res.status(200).json({login: true});
+  res.json({page: 'Categories'});
 }
 
 const getById = function(req, res) {
